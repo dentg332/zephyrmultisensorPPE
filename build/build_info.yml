@@ -1,0 +1,61 @@
+cmake:
+  application:
+    configuration-dir: 'C:/Users/Usuario/zephyrTFMproject/MultiSensorPPE'
+    source-dir: 'C:/Users/Usuario/zephyrTFMproject/MultiSensorPPE'
+  board:
+    name: 'nucleo_wl55jc'
+    path:
+     - 'C:/Users/Usuario/zephyrTFMproject/zephyr/boards/st/nucleo_wl55jc'
+    qualifiers: 'stm32wl55xx'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - 'C:/Users/Usuario/zephyrTFMproject/zephyr/dts/bindings'
+    files:
+     - 'C:/Users/Usuario/zephyrTFMproject/zephyr/boards/st/nucleo_wl55jc/nucleo_wl55jc.dts'
+     - 'C:/Users/Usuario/zephyrTFMproject/MultiSensorPPE/boards/nucleo_wl55jc.overlay'
+    include-dirs:
+     - 'C:/Users/Usuario/zephyrTFMproject/modules/hal/ambiq/dts'
+     - 'C:/Users/Usuario/zephyrTFMproject/modules/hal/atmel/include'
+     - 'C:/Users/Usuario/zephyrTFMproject/modules/hal/bouffalolab/include'
+     - 'C:/Users/Usuario/zephyrTFMproject/modules/hal/bouffalolab/include/zephyr'
+     - 'C:/Users/Usuario/zephyrTFMproject/modules/hal/gigadevice/include'
+     - 'C:/Users/Usuario/zephyrTFMproject/modules/hal/microchip/include'
+     - 'C:/Users/Usuario/zephyrTFMproject/modules/hal/microchip/dts'
+     - 'C:/Users/Usuario/zephyrTFMproject/modules/hal/nuvoton/dts'
+     - 'C:/Users/Usuario/zephyrTFMproject/modules/hal/nxp/dts'
+     - 'C:/Users/Usuario/zephyrTFMproject/modules/hal/stm32/dts'
+     - 'C:/Users/Usuario/zephyrTFMproject/modules/hal/ti/dts'
+     - 'C:/Users/Usuario/zephyrTFMproject/zephyr/include'
+     - 'C:/Users/Usuario/zephyrTFMproject/zephyr/include/zephyr'
+     - 'C:/Users/Usuario/zephyrTFMproject/zephyr/dts/common'
+     - 'C:/Users/Usuario/zephyrTFMproject/zephyr/dts/vendor'
+     - 'C:/Users/Usuario/zephyrTFMproject/zephyr/dts/rx'
+     - 'C:/Users/Usuario/zephyrTFMproject/zephyr/dts/x86'
+     - 'C:/Users/Usuario/zephyrTFMproject/zephyr/dts/xtensa'
+     - 'C:/Users/Usuario/zephyrTFMproject/zephyr/dts/sparc'
+     - 'C:/Users/Usuario/zephyrTFMproject/zephyr/dts/riscv'
+     - 'C:/Users/Usuario/zephyrTFMproject/zephyr/dts/posix'
+     - 'C:/Users/Usuario/zephyrTFMproject/zephyr/dts/arm64'
+     - 'C:/Users/Usuario/zephyrTFMproject/zephyr/dts/arm'
+     - 'C:/Users/Usuario/zephyrTFMproject/zephyr/dts/arc'
+     - 'C:/Users/Usuario/zephyrTFMproject/zephyr/dts'
+    user-files:
+     - 'C:/Users/Usuario/zephyrTFMproject/MultiSensorPPE/boards/nucleo_wl55jc.overlay'
+  kconfig:
+    files:
+     - 'C:/Users/Usuario/zephyrTFMproject/zephyr/boards/st/nucleo_wl55jc/nucleo_wl55jc_defconfig'
+     - 'C:/Users/Usuario/zephyrTFMproject/MultiSensorPPE/prj.conf'
+    user-files:
+     - 'C:/Users/Usuario/zephyrTFMproject/MultiSensorPPE/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: 'C:/Users/Usuario/zephyr-sdk-0.17.1'
+  zephyr:
+    version: '4.1.99'
+    zephyr-base: 'C:/Users/Usuario/zephyrTFMproject/zephyr'
+version: '0.1.0'
+west:
+  command: 'C:\Users\Usuario\zephyrTFMproject\.venv\Scripts\west build -t devicetree'
+  topdir: 'C:\Users\Usuario\zephyrTFMproject'
+  version: '1.4.0'

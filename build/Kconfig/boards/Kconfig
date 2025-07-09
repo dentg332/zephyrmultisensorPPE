@@ -1,0 +1,2 @@
+# Load Zephyr board Kconfig descriptions.
+osource "C:/Users/Usuario/zephyrTFMproject/zephyr/boards/st/nucleo_wl55jc/Kconfig"

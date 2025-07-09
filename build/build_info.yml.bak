@@ -1,0 +1,4 @@
+west:
+  command: C:\Users\Usuario\zephyrTFMproject\.venv\Scripts\west build -t devicetree
+  topdir: C:\Users\Usuario\zephyrTFMproject
+  version: 1.4.0
